@@ -19,6 +19,14 @@ This integration is Cali's Home Assistant counterpart. It lets her:
 - **Speak up** — use `cali.speak` in any automation to have her announce things
   ("The washing machine is done") with a matching facial expression
 
+## Bring your own AI
+
+Cali runs on **your own AI accounts**: you plug in your personal Anthropic API
+key (the brain) and optionally your ElevenLabs key (the voice) directly in the
+app. Your requests go straight from your Mac to the providers — no middleman,
+no subscription to us, full control over models, voices and costs. You are
+free to choose and switch at any time.
+
 ## Installation
 
 **Via HACS (recommended):**
