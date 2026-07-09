@@ -1,0 +1,35 @@
+speak:
+  name: Karl sprechen lassen
+  description: >-
+    Lässt Karl (den Desktop-Assistenten) einen Text sprechen. Nutzbar als
+    Benachrichtigungsziel in Automationen – z. B. "Die Waschmaschine ist fertig."
+  fields:
+    message:
+      name: Nachricht
+      description: Der Text, den Karl vorlesen soll.
+      required: true
+      selector:
+        text:
+          multiline: true
+    emotion:
+      name: Emotion
+      description: Gesichtsausdruck, mit dem Karl die Nachricht spricht.
+      selector:
+        select:
+          options:
+            - neutral
+            - happy
+            - excited
+            - sad
+            - bored
+            - surprised
+            - confused
+            - tired
+            - annoyed
+            - proud
+    wake:
+      name: Aufwecken
+      description: Karl einblenden, falls er gerade versteckt ist.
+      default: true
+      selector:
+        boolean:
