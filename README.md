@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="custom_components/cali/brand/icon@2x.png" width="160" alt="Cali" />
+  <img src="https://raw.githubusercontent.com/Schooott/cali-ha/main/custom_components/cali/brand/icon.png" width="160" alt="Cali" />
 </p>
 
 <h1 align="center">Cali for Home Assistant</h1>
