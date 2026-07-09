@@ -79,3 +79,8 @@ Available emotions: `neutral`, `happy`, `wink`, `love`, `surprised`, `crazy`,
 - `cali/action` — `{entity_id, action, params?}`, whitelisted server-side
 - `cali/subscribe` — pushes `notify` events (from `cali.speak`), `state` updates
   of exposed entities, and `entities_changed` when the exposure set changes
+
+## Support
+
+Cali is free and runs on your own AI keys. If she makes your day a little
+better, you can [buy me a coffee](https://buymeacoffee.com/schooott) ☕️
