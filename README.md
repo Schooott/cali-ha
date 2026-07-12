@@ -29,15 +29,27 @@ free to choose and switch at any time.
 
 ## Installation
 
-**Via HACS (recommended):**
+**Via HACS (recommended):** click the badge below — it opens your own
+Home Assistant instance and adds this repository to HACS for you.
+
+[![Open your Home Assistant instance and open this repository inside HACS.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=Schooott&repository=cali-ha&category=integration)
+
+Then install **Cali**, restart Home Assistant and set up the integration:
+
+[![Open your Home Assistant instance and start setting up the Cali integration.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=cali)
+
+<details>
+<summary>Manual steps (without the badges)</summary>
 
 1. HACS → three-dot menu → *Custom repositories*
 2. Add `https://github.com/Schooott/cali-ha` as type *Integration*
 3. Install **Cali**, restart Home Assistant
 4. Settings → Devices & Services → *Add Integration* → **Cali**
 
-**Manually:** copy `custom_components/cali/` into `config/custom_components/cali/`
+**Fully manual:** copy `custom_components/cali/` into `config/custom_components/cali/`
 and restart.
+
+</details>
 
 ## Authentication (for the Cali macOS app)
 
